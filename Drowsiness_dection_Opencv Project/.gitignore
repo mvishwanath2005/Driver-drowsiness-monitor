@@ -1,0 +1,37 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# PyInstaller/build
+build/
+dist/
+*.spec
+*.exe
+*.dll
+*.pdb
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Logs and outputs
+*.log
+events_log.csv
+Documents/DrowsinessMonitor/
+
+# Optional: ignore dataset / downloads
+shape_predictor_68_face_landmarks.dat
+"@ > .gitignore
